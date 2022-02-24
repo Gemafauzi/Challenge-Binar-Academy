@@ -26,19 +26,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Our Services<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#service-section">Our Services<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Why Us</a>
+                        <a class="nav-link" href="#Why-us">Why Us</a>
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonial</a>
+                        <a class="nav-link" href="#testimonial-section">Testimonial</a>
                     </li>
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#FAQ">FAQ</a>
                     </li>
 
 
@@ -76,7 +76,7 @@
 
 
     <!-- Services start -->
-    <section class=" container mt-5">
+    <section class=" container mt-5" id="service-section">
         <div class="about-area">
             <div class="row ">
                 <div class="col-lg-6 col-md-12 ">
@@ -102,8 +102,8 @@
     </section>
     <!-- services end -->
 
-    <!-- Card  Start-->
-    <section class="container mt-5">
+    <!-- Card  WHY us Start-->
+    <section class="container mt-5" id="Why-us">
         <div class="ml-136">
             <div>
                 <h1 class="heading-service" class="">Why Us?</h1>
@@ -322,7 +322,7 @@
         </div>
     </section>
     <!-- Frequently Asked Question -->
-    <section>
+    <section id="FAQ">
         <div>
             <div class="container px-lg-5">
                 <div class="row mx-lg-n5">
@@ -414,34 +414,77 @@
               </div>
         </div>
     </section>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-        feather.replace()
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper(".swiper", {
-            // loop: true,
-            spaceBetween: 16,
-            slidesPerView: 1.1,
-            initialSlide: 1,
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            centeredSlides: true,
-            navigation: {
-                nextEl: ".next",
-                prevEl: ".prev",
-            },
-            breakpoints: {
-                576: {
-                    slidesPerView: 1.5,
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</h4>
+                    <ul>
+            <li><a href="#">binarcarrental@gmail.com</a></li>
+            <li><a href="#">081-233-334-808</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <ul>
+                <h4>
+                    <li><a href="#service-section">Our Services</a></li>
+                </h4>
+                <li class="mr-3"><a href="#Why-us">Why Us</a></li>
+                <li class="mr-3"><a href="#testimonial-section">Testimonial</a></li>
+                <li class="mr-3"><a href="#FAQ">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Connect with us</h4>
+            <ul class="logo">
+                <li class="mr-2"><img src="./img/fb.png" alt=""></li>
+                <li class="mr-2"><img src="./img/ig.png" alt=""></li>
+                <li class="mr-2"><img src="./img/twit.png" alt=""></li>
+                <li class="mr-2"><img src="./img/ms.png" alt=""></li>
+                <li class="mr-2"><img src="./img/twice.png" alt=""></li>
+
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Copyright Binar 2022</h4>
+            <div class="social-links">
+                <img src="./img/logo.png" alt="" srcset="" />
+            </div>
+        </div>
+        </div>
+        </div>
+        </footer>
+
+        <!-- Footer end -->
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script>
+            feather.replace()
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper(".swiper", {
+                // loop: true,
+                spaceBetween: 16,
+                slidesPerView: 1.1,
+                initialSlide: 1,
+                pagination: {
+                    el: ".swiper-pagination",
                 },
-            },
-        });
-    </script>
+                centeredSlides: true,
+                navigation: {
+                    nextEl: ".next",
+                    prevEl: ".prev",
+                },
+                breakpoints: {
+                    576: {
+                        slidesPerView: 1.5,
+                    },
+                },
+            });
+        </script>
 </body>
 
 </html>
