@@ -1,0 +1,88 @@
+.light-blue {
+    background-color: #F1F3FF;
+    margin-right: auto;
+}
+
+.ibu-img {
+    /* position: relative !important; */
+    max-width: 100%;
+}
+
+.banner-header {
+    display: flex;
+    width: 500px;
+    height: 508px;
+    top: 0px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.deskripsi {
+    position: absolute;
+    width: 468px;
+    height: 60px;
+    left: 136px;
+    top: 301px;
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #000000;
+}
+
+.bulat {
+    background: #CFD4ED;
+}
+
+.car-img {
+    position: relative !important;
+    max-width: 100%;
+    left: 10px;
+    top: 46px;
+}
+
+.btn-success {
+    height: 40px;
+}
+
+.banner-desc {
+    margin-top: -350px;
+    height: 120px;
+}
+
+.swiper {
+    width: 100%;
+    min-height: 16.875rem;
+    padding: 1rem 0;
+}
+
+.btn-green {
+    transition: background 0.2s ease-in-out;
+}
+
+.btn-green:hover {
+    background: #4e9e50 !important;
+}
+
+.prev,
+.next {
+    transition: all 0.2s ease-in-out;
+}
+
+.prev:hover,
+.next:hover {
+    background: #4e9e50;
+    border: none;
+}
+
+.prev:hover path,
+.next:hover path {
+    stroke: white;
+}
