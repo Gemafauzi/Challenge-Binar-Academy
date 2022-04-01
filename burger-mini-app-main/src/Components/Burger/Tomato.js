@@ -1,8 +1,9 @@
 import React from 'react'
+import style from './burger.module.css'
 
 const Tomato = () => {
   return (
-    <div>Tomato</div>
+    <div className={style.tomato}></div>
   )
 }
 

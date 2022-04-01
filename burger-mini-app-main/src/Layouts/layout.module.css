@@ -1,0 +1,26 @@
+.navigation {
+    height: 60px;
+    background: #FBAE3D;
+    display: flex;
+    align-items: center;
+}
+
+.navigation_item {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    background: #D6190E;
+    border-radius: 999px;
+}
+
+.navigation_item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: #72190E;
+}
+
+.main_content {
+    min-height: calc( 100vh - 60px );
+    height: 1px;
+}
