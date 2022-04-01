@@ -1,0 +1,45 @@
+.ingredients_selector {
+    padding: 20px;
+    text-align: center;
+}
+.ingredients_map {
+    margin: 20px 16px;
+    overflow-y: auto;
+    height:300px;
+}
+.button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.add_button {
+    background: #ffffff;
+    border: 0;
+    border-radius: 999px;
+    padding: 8px 16px;
+    margin: 4px 4px;
+}
+
+.map_item {
+    background: #eaeaea;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.map_controller {
+    display: flex;
+}
+
+.map_controller > * {
+    margin-right: 4px;
+}
+
+.remove_button {
+    color: red;
+    font-size: 24px;
+}
+.order_button {
+    color: orange;
+    font-size: 24px;
+}
