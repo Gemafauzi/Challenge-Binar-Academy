@@ -36,6 +36,7 @@ const Panel = (props) => {
                         <input type="time" className="form-control"  disabled={props.form} />
                     </div>
                 </div>
+
                 <div className="col-3 px-2">
                     <div className="my-3">
                         <label className="form-label">Jumlah penumpang (opsional)</label>
@@ -44,7 +45,7 @@ const Panel = (props) => {
                 </div>
 
             </div>
-           
+
             <div className={props.show ? 'col-1 px-0' : 'd-none'}>
                 <Link to='/cari' className={`btn ${props.edit ? 'btn btn-outline-primary' : 'btn-success'} mt-5`}>
                     <small>

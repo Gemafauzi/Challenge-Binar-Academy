@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   return (
     <>
@@ -13,13 +12,13 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <div className="navbar-nav d-flex flex-row align-items-center">
-            <a class="nav-link" href="#service-section">Our Services<span class="sr-only"></span></a>
-            <a class="nav-link" href="#Why-us">Why Us</a>
-            <a class="nav-link" href="#testimonial-section">Testimonial</a>
-            <a class="nav-link" href="#FAQ">FAQ</a>
-            <form class="form-inline my-2 my-lg-0">
-             <button class="btn btn-success my-2 my-sm-0" type="submit">Register</button>
-            </form>
+              <p className="nav-link mx-2 font-hel font-14 font-w400">Our service</p>
+              <p className="nav-link mx-2 font-hel font-14 font-w400">Why us</p>
+              <p className="nav-link mx-2 font-hel font-14 font-w400">Testimonial</p>
+              <p className="nav-link mx-2 font-hel font-14 font-w400">FAQ</p>
+              <p className="nav-link mx-2 font-hel font-14 font-w400">
+                  <button className="btn btn-md btn-success">Register</button>
+              </p>        
             </div>
            </div>
         </div>
