@@ -1,0 +1,150 @@
+/* first-section */
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    background-color: #F1F3FF;
+    overflow-x: hidden;
+}
+
+.first-section-container{
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F3FF;
+    padding-top: 20px;
+}
+
+.banner{
+    margin-top: 50px;
+}
+
+.main-description{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-sewa{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5CB85F;
+    color: white;
+}
+
+.button-sewa:hover{
+    background-color: #51a754;
+}
+
+.main-title-1 {
+    font-size: 24pt;
+    font-weight: 700;
+    color: black;
+}
+
+.main-title-2 {
+    font-size: 24pt;
+    font-weight: 700;
+    color: black;
+}
+
+.car-container{
+    transform:translate(10%,0%);
+}
+
+@media screen and (max-width: 1200px){
+
+    .car-container{
+        transform:translate(-25%,0%);
+    }
+
+    .car-container-inner{
+        width: 140%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .first-section-container{
+        width: 87%;
+    }
+
+    .banner{
+        margin-top: 20px;
+    }
+
+    .main-description{
+        width: 85%;
+        font-size: 10pt;
+    }
+
+    .main-title-1, .main-title-2 {
+        font-size: 20pt;
+    }
+
+    .car-container{
+        transform:translate(-5%,0%);
+    }
+
+    .car-container-inner{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .car-container-inner{
+        width: 180%;
+        display: none;
+    }
+
+    .main-title-1 {
+        font-size: 16pt;
+        font-weight: 700;
+        color: black;
+    }
+
+    .main-title-2 {
+        font-size: 16pt;
+        font-weight: 700;
+        color: black;
+    }
+
+    .button-sewa{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .first-section-container{
+        width: 90%;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-description{
+        width: 100%;
+        font-size: 11pt;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .car-container{
+        transform:translate(-10%,0%);
+        margin-top: 40px;
+    }
+
+    .car-container-inner{
+        width: 120%;
+        display: block;
+    }
+}

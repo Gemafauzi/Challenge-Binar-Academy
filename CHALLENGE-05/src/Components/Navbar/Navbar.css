@@ -1,0 +1,55 @@
+@media screen and (min-width: 769px){
+
+    .nav-container{
+        display: flex;
+        justify-content: center;
+        background-color: #F1F3FF;
+    }
+
+    .navbar{
+        width: 90%;
+        height: 60px;
+    }
+
+    .navbar-collapse{
+        display: flex;
+        justify-content: right;
+    }
+
+    .nav-item{
+        margin-right: 30px;
+    }
+
+    .nav-register{
+        width: 100px;
+        text-align: center;
+        color: white;
+        background-color: #5CB85F;
+    }
+
+    .nav-register:hover {
+        background-color: #51a754;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .nav-container{
+        background-color: #F1F3FF;
+    }
+}
+
+.navbar-brand{
+    height: 40px;
+    width: 100px;
+    background-color: #0D28A6;
+}
+
+
+
+
+
+
+
+
+
+
