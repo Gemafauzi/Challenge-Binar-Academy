@@ -1,0 +1,14 @@
+.result_container{
+    display:grid;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.movie_card{
+    border: 2px solid #afffff;
+    padding: 8px;
+    border-radius: 8px;
+}

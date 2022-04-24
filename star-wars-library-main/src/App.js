@@ -1,17 +1,24 @@
-import React from 'react'
-import './main.css'
-import Header from './Components/Header/Header'
-import SearchBar from './Components/SearchBar/SearchBar'
-import Result from './Components/Result/Result'
+import React, { useState } from 'react'
 
-const App = () => {
+import './main.css'
+
+import Header from './Components/Header/Header';
+import SeacrhBar from './Components/SearchBar/SearchBar';
+import Result from './Components/Result/Result';
+
+function App() {
+
+  const [movieList, setMovieList] = useState([])
+
   return (
-    <div className='app_container'>
-      <Header/>
-      <SearchBar/>
-      <Result/>
-    </div>
-  )
+    <>
+      <div className='app_container'>
+        <Header/>
+        <SeacrhBar setMovieList={setMovieList}/>
+        <Result movieList={movieList} />
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
