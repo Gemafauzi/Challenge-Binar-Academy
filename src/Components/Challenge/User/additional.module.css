@@ -1,0 +1,70 @@
+@font-face {
+	font-family: "Helvetica";
+	src: local(Helvetica);
+}
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* ============ reset all margin and padding also applying font family root ============ */
+/* ============ componen default settings start ============ */
+
+.header {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #000000;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.sub_header {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #000000;
+}
+
+.text {
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 20px;
+	color: #000000;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.text_reguler {
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.text_bold {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #000000;
+	font-weight: 800;
+}
+
+.buttons {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #ffff;
+	background-color: #5cb85f;
+	border: none;
+	border-radius: 2px;
+	padding: 10px 18px 10px 18px;
+	font-weight: bold;
+	transition: 0.3s ease-in-out;
+	text-transform: capitalize;
+}
