@@ -1,0 +1,651 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: #f4f5f7;
+}
+
+:root {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+/* ============ reset all margin and padding also applying font family root ============ */
+/* ============ sign in  start ============ */
+
+.image_sign_in {
+	width: 100%;
+	height: 110%;
+}
+
+.right_sign_in {
+	margin-top: 20%;
+}
+
+.header_sign_in {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: bold;
+	margin-bottom: 47px;
+}
+
+.box_email {
+	width: 91%;
+	border: 2px solid rgb(0, 0, 0, 10%);
+	padding: 12px;
+	border-radius: 5px;
+	margin: 14px 0 20px 0;
+}
+
+.box_password {
+	width: 91%;
+	border: 2px solid rgb(0, 0, 0, 10%);
+	padding: 12px;
+	border-radius: 5px;
+	margin: 14px 0 20px 0;
+}
+
+.button_sign_in {
+	margin-top: 31px;
+	background-color: #0d28a6;
+	color: #ffffff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+
+.button_sign_in:hover {
+	background-color: rgb(68, 55, 166);
+	border-radius: 20px;
+}
+
+/* ============ sidebar start ============ */
+
+.main_container {
+	min-height: 100vh;
+}
+
+.sidebar_container {
+	padding-right: 0;
+	background-color: #0d28a6;
+	flex-basis: 240px;
+	min-height: 100vh;
+	margin-right: 0;
+}
+
+.sidebar {
+	background-color: #0d28a6;
+	flex-basis: 240px;
+	min-height: 100vh;
+	margin-right: 0;
+}
+
+.sidebar_logo {
+	background-color: #0d28a6;
+	width: 100%;
+	padding: 5px;
+}
+
+.main_nav_item i {
+	font-size: 29px;
+	color: #ffffff;
+	margin: 10px 0px;
+}
+
+.main_nav_item a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+.homepage_home_container {
+	margin-top: 25px;
+	padding-right: 5px;
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
+.truck_container {
+	margin-top: 25px;
+	padding-right: 5px;
+}
+/* ============ sidebar end ============ */
+/* ============ Expand sidebar end ============ */
+
+.sidebar_expand {
+	margin: 0;
+	padding: 0;
+}
+
+.expand_logo {
+	width: 55%;
+	height: 30%;
+	margin: 0px 15px;
+}
+
+.expand_title {
+	color: #8a8a8a;
+	font-weight: bold;
+	font-size: 14px;
+	list-style: 20px;
+	text-transform: uppercase;
+	margin: 55px 0px 0px 28px;
+}
+
+.block_sub_title {
+	background-color: #cfd4ed;
+	color: #151515;
+	font-weight: bold;
+	font-size: 14px;
+	list-style: 20px;
+	padding: 12px 0px 6px 28px;
+	margin-top: 24px;
+}
+
+/* ============ Expand sidebar end ============ */
+/* ============ navbar start ============ */
+
+.navigation {
+	margin: 10px;
+}
+
+#navbar_container {
+	padding-left: 0;
+}
+
+.btn_menu {
+	border: none;
+	background-color: transparent;
+	margin-right: 35%;
+}
+
+.menu_navbar {
+	font-size: 25px;
+	color: #151515;
+}
+
+.search_icon {
+	position: absolute;
+	left: 48, 5%;
+	top: 25%;
+	padding: 10px 10px;
+	color: #8a8a8a;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.btn_search {
+	border: 1px solid#0d28a6;
+	color: #0d28a6;
+	margin-left: -5px;
+	margin-right: 10px;
+	transition: 0.5s;
+}
+
+.btn_search:hover {
+	background-color: #0d28a6;
+	border: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.profile_pic {
+	width: 40px;
+	height: 40px;
+	background-color: #cfd4ed;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 7px;
+	color: #5d6bcf;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.profile_name {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 10px;
+}
+
+.profile_arrow {
+	font-size: 30px;
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+/* ============ navbar end ============ */
+/* ============ Dashboard-header group start ============ */
+
+.dashboard_link {
+	text-decoration: none;
+}
+
+.dashboard_first {
+	font-size: 18px;
+	line-height: 12px;
+	font-weight: bold;
+	margin: 50px 10px 50px 0px;
+	color: black;
+}
+
+.dashboard_arrow {
+	font-size: 22px;
+	margin: 45px 10px 0px 0px;
+}
+
+.dashboard_second {
+	font-size: 18px;
+	line-height: 12px;
+	margin: 49px 10px 50px 0px;
+	color: black;
+}
+
+.dashboard_sub_header {
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-bottom: 32px;
+}
+
+.list_order_container {
+	margin-bottom: 19px;
+}
+
+.strip {
+	width: 5px;
+	height: 25px;
+	background-color: #0d28a6;
+	margin-right: 10px;
+	transition: 1s;
+}
+
+/* ============ Dashboard-header group end ============ */
+/* ============ table start ============ */
+
+.table {
+	background-color: #ffffff;
+}
+
+.table_heading {
+	background-color: #cfd4ed;
+	border: none;
+	outline: none;
+}
+
+.btn_pagination {
+	border: 2px solid #d0d0d0;
+}
+
+.btn_go {
+	background-color: #0d28a6;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Rubik, Helvetica, Arial, sans-serif;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.3s ease-in-out;
+}
+
+.btn_go:hover {
+	background-color: #e24b76;
+	border-radius: 20px;
+}
+
+.pagination_colours {
+	color: #8a8a8a;
+}
+
+.pagination_colours:hover {
+	color: #0d28a6;
+	font-weight: bold;
+}
+
+/* ============ table end ( end of index.html)  ============ */
+/* ============ cars start ============ */
+
+/* ============ sidebar end ============ */
+/* ============ Expand sidebar end ============ */
+
+/* ============ navbar start ============ */
+
+.searching {
+	padding-left: 30px;
+	background-size: 20px;
+}
+
+/* ============ navbar end ============ */
+/* ============ header group start ============ */
+
+.truck_container {
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
+.cars_link {
+	text-decoration: none;
+}
+
+.cars_first {
+	font-size: 18px;
+	line-height: 12px;
+	font-weight: bold;
+	margin: 50px 10px 50px 0px;
+	color: black;
+}
+
+.cars_arrow {
+	font-size: 22px;
+	margin: 45px 10px 0px 0px;
+}
+
+.cars_second {
+	font-size: 18px;
+	line-height: 12px;
+	margin: 49px 10px 50px 0px;
+	color: black;
+}
+
+.cars-sub-header {
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-bottom: 32px;
+}
+
+.btn_add_cars {
+	background-color: #0d28a6;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 8px 20px;
+	font-weight: bold;
+}
+
+.btn_add_cars:hover {
+	background-color: #5e79f4;
+	color: #ffffff;
+}
+.plus_icon {
+	font-size: 14px;
+	margin: 2px 10px 0px 0px;
+}
+
+.btn_sub_header {
+	margin: 20px 10px 20px 0px;
+	background-color: transparent;
+	border: 1px solid #aeb7e1;
+	color: #0d28a6;
+	font-size: 14px;
+	line-height: 20px;
+	border-radius: 2px;
+	padding: 8px 20px;
+	transition: 0.3s ease-in-out;
+}
+
+.btn_sub_header:hover {
+	background-color: #cfd4ed;
+	border: 2px solid #0d28a6;
+	color: #0d28a6;
+	font-size: 14px;
+	line-height: 20px;
+	border-radius: 2px;
+	padding: 8px 20px;
+}
+
+.btn_all {
+	background-color: #cfd4ed;
+	border: 2px solid #0d28a6;
+	color: #0d28a6;
+	font-size: 14px;
+	line-height: 20px;
+	border-radius: 2px;
+	padding: 8px 20px;
+}
+
+/* ============ card start ============ */
+
+.cars_container {
+	margin-top: 4%;
+}
+
+.card_custom {
+	width: 305px;
+	height: 450px;
+	background-color: #ffffff;
+}
+
+.card_custom_2 {
+	margin-top: 24px;
+}
+
+.card {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.car_image {
+	padding: 7%;
+}
+
+.key_icon {
+	width: 25px;
+	height: 25px;
+	margin: 10px 10px 0px 0px;
+}
+
+.key_text {
+	margin-top: 15px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.clock_icon {
+	width: 25px;
+	height: 25px;
+	margin: 0px 10px 0px 0px;
+}
+
+.clock_text {
+	margin-top: 3px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.btn_delete {
+	color: #fa2c5a;
+	background-color: transparent;
+	border: 1px solid #fa2c5a;
+	border-radius: 2px;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin: 5px 10px 5px 5px;
+	transition: 0.3s ease-in-out;
+	font-family: Helvetica, sans-serif;
+}
+
+.delete_icon {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.btn_delete:hover {
+	background-color: #fa2c5a;
+	color: #ffffff;
+}
+
+.btn_edit {
+	color: #ffffff;
+	background-color: #5cb85f;
+	border: none;
+	border-radius: 2px;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	padding: 10px 35px;
+	margin: 5px 10px 5px 5px;
+}
+
+.edit_icon {
+	color: #ffffff;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+/* ============ cars card start ============ */
+/* ============ cars modal start ============ */
+
+.alert_img {
+	width: 55%;
+	height: auto;
+	margin: 5px auto 15px auto;
+	text-align: center;
+}
+
+.alert_heading {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.alert_text {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: lighter;
+}
+
+.alert_btn_yes {
+	margin: 10px 15px;
+	background-color: #0d28a6;
+	color: #ffffff;
+	padding: 10px 35px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.2s ease-in-out;
+}
+
+.alert_btn_yes:hover {
+	background-color: #e24b76;
+}
+
+.alert_btn_no {
+	margin: 10px 0;
+	border: 1px solid #0d28a6;
+	color: #0d28a6;
+	padding: 10px 25px;
+	border-radius: 5px;
+	background-color: transparent;
+	transition: 0.2s ease-in-out;
+}
+
+.alert_btn_no:hover {
+	border: none;
+	color: #ffffff;
+	background-color: rgb(25, 205, 34);
+}
+
+/* ============ Adding modal end ============ */
+/* ============ cars end ============ */
+
+/* ============ Adding start ============ */
+/* ============ Adding Container ============ */
+
+.adding_container {
+	background-color: white;
+	border-radius: 15px;
+	padding: 25px;
+	margin-top: 24px;
+}
+
+.adding_container h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 15px 0px;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: lighter;
+}
+
+.inputs {
+	width: 100%;
+	margin: 5px 200px 5px 5px;
+	padding: 10px 10px;
+}
+
+.cars_foto_input {
+	position: relative;
+}
+
+.cars_foto_input i {
+	position: absolute;
+	right: 0;
+	top: 8px;
+	padding: 10px 10px;
+	color: #8a8a8a;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.foto_warning {
+	font-size: 10px;
+	line-height: 14px;
+	color: #8a8a8a;
+	margin: 2px 0px 0px 5px;
+}
+
+.title_input {
+	margin-top: 10px;
+}
+
+.empty_input {
+	margin: 8px 0px 35px 6px;
+}
+
+.adding_buttons {
+	margin-top: 50px;
+}
+
+.btn_cancel {
+	color: #0d28a6;
+	border: 2px solid #0d28a6;
+	margin-right: 5px;
+}
+
+.btn_save {
+	background-color: #0d28a6;
+	color: #ffffff;
+	padding: 8px 20px;
+}
+
+.btn_save:hover {
+	color: #ffffff;
+}
+
+/* ============ Adding Container end ============ */
+/* ============ Adding modal start ============ */
+
+.adding_modal_content {
+	background-color: #3db140;
+}
+
+.adding_modal_text {
+	font-weight: normal;
+	font-size: 20px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+.adding_modal_button {
+	background-color: #ffffff;
+	padding: 8px 18px;
+	color: #3db140;
+	font-weight: bolder;
+}
+
+/* ============ Adding end ============ */
