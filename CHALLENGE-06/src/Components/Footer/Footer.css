@@ -1,0 +1,121 @@
+footer .container {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  
+  .list-footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .list-footer ul li {
+    margin-bottom: 16px;
+  }
+  
+  .info ul li {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .social p {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .social ul li {
+    margin-right: 16px !important;
+  }
+  
+  .copyright p {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+@media screen and (max-width:992px) {
+    footer .container {
+        padding-top: 70px;
+        padding-bottom: 30px;
+      }
+      
+      .list-footer ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      
+      .list-footer ul li {
+        margin-bottom: 16px;
+      }
+      
+      .info ul li {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      
+      .menu ul li a {
+        text-decoration: none;
+        font-family: Helvetica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+      }
+      
+      .social p {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      
+      .social ul li {
+        margin-right: 16px !important;
+      }
+      
+      .copyright p {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+}
