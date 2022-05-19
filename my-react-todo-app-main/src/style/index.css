@@ -1,0 +1,55 @@
+body {
+    background-color: #eeeeee;
+    color: #555555;
+    /*
+      warna background #eeeeee
+      warna text #555555
+    */
+  }
+  
+  .todo-list {
+    position: relative;
+    margin: 30px auto;
+    background-color: #ffffff;
+    width: 600px;
+    padding: 20px 20px 10px;
+    border-color: #dddddd;
+    border-radius: 2px;
+    /*
+      warna background #ffffff
+      lebar 600px
+      padding 20px kecuali padding bawah 10px
+      border berwarna #dddddd dengan border radius 2px
+    */
+  }
+  
+  .todo-list h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .list-group-flush> .list-group-item {
+    padding: 8px 0px;
+  }
+  
+  .todo-footer {
+      border-top-color: #dddddd;
+      border-style: solid none none;
+      background-color: #f4fce8;
+      margin: 0 -20px -10px;
+      padding: 10px 20px;
+      
+    /*
+      border atas berwarna #dddddd, tanpa border kanan, kiri, & bawah
+      warna background #f4ce8
+      margin kanan & kiri -20px
+      margin atas 0
+      margin bawah -10px
+      padding vertikal 10px, horizontal 20px
+    */
+  }
+  
+  .mark-all-done {
+    margin-top: 10px;
+  }
