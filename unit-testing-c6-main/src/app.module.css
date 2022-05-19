@@ -1,0 +1,11 @@
+.app {
+  font-family: 'arial';
+  margin: 50px auto;
+  border-radius: 10px;
+  background: #fafafa;
+  border: 1px solid #eaeaea;
+  padding: 24px;
+  width: calc( 100% - 100px );
+  max-width: 700px;
+  box-shadow: 0 3px 15px 5px rgba(0,0,0,0.1);
+}

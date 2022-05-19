@@ -1,0 +1,6 @@
+.list {
+    margin: 30px 0;
+}
+.list li {
+    cursor: pointer;
+}
