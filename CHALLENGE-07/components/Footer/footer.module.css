@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(2, 2, 51);
+    color: #fff;
+    padding: 5px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.wrapper {
+    margin: auto;
+}

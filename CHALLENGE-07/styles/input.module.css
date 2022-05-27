@@ -1,0 +1,12 @@
+.input {
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+}
+
+.form{
+    max-width: 50%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
