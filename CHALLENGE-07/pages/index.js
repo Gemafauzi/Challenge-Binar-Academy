@@ -10,6 +10,10 @@ import { Card } from 'react-bootstrap'
 export default function Home() {
   const [students, setStudents] = useState([])
 
+  var imageSize ={
+    width:"400px", height:"400px"
+  }
+
   useEffect( () => {
     axios.get('https://fejs-c7-api.herokuapp.com/api/students/?populate=*')
   .then( res => {
@@ -34,10 +38,10 @@ export default function Home() {
               <div className={styles.dataCard} key={student.id}>
                 <div className="row">
                   <div className="col">
-                      <Card style={{width:'13rem'}} onClick={ () => router.push(`/student/${id}`)}>
+                      <Card style={{width:'20rem'}} onClick={ () => router.push(`/student/${id}`)}>
                       { student.attributes.photo.data !== null &&
                             <Zoom>
-                              <img className="card-img-top img-thumbnail"src={student.attributes.photo.data.attributes.url} />
+                              <img className="card-img-top img-thumbnail"src={student.attributes.photo.data.attributes.url} style={imageSize}/>
                             </Zoom>
                           }
                           <Card.Body>

@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div>
       <div className={styles.navbar}>
-        <div className={styles.logo}>CHALLANGE</div>
+        <div className={styles.logo}>LOGO</div>
         <div>
           <ul className={styles.list}>
             <li className={styles.item}><Link href="/" style={{ textDecoration: 'none' }}>Home</Link></li>
